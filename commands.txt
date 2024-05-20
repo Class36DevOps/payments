@@ -13,3 +13,5 @@ head -500 /etc/paswwd > old_users    ------> Creates old_users directory and cop
 
 cat -n filename  --------> Displays file content and line numbering 
 
+=======
+NOTE: Check class note and take note of the time zome management
