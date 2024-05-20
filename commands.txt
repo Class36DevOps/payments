@@ -1,0 +1,8 @@
+find / -name test.txt      ------ Universal (need sudo access)
+OR
+sudo find / -name test.txt      ------ Universal (need sudo access)
+
+find ~ -name ray_test.txt   ------ From home directory
+
+== Using APPEND command (>>):
+
