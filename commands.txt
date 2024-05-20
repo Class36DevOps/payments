@@ -5,4 +5,11 @@ sudo find / -name test.txt      ------ Universal (need sudo access)
 find ~ -name ray_test.txt   ------ From home directory
 
 == Using APPEND command (>>):
+echo i am just testing >> test.txt  ------> appends "i am just testing" into an existing file "test.txt"
+
+== Using REDIRECT command (>):
+
+head -500 /etc/paswwd > old_users    ------> Creates old_users directory and copy the first 500 lines in /etc/paswwd into it
+
+cat -n filename  --------> Displays file content and line numbering 
 
